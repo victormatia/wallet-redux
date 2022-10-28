@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import store from './redux/store';
 
 ReactDOM.render(
-  <HashRouter>
+  <HashRouter basename='/'>
     <Provider store={ store }>
       <App />
     </Provider>
