@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <main>
         <Switch>
-          <Route exact path="rota" component={ Login } />
+          <Route exact path={rota} component={ Login } />
           <Route exact path="/carteira" component={ Wallet } />
         </Switch>
       </main>
