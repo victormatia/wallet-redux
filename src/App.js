@@ -8,7 +8,6 @@ export default class App extends Component {
   render() {
     return (
       <main>
-        <p>test</p>
         <Switch>
           <Route exact path="/" component={ Login } />
           <Route exact path="/carteira" component={ Wallet } />
