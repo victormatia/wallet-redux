@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <main>
         <Switch>
-          <Route exact path="/wallet/login" component={ Login } />
+          <Route exact path="/wallet-redux/login" component={ Login } />
           <Route exact path="/carteira" component={ Wallet } />
         </Switch>
       </main>
