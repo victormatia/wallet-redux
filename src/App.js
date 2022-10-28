@@ -4,7 +4,7 @@ import Login from './pages/Login';
 import Wallet from './pages/Wallet';
 import './css/App.css';
 
-const rota = 'https://victormatia.github.io/wallet-redux/';
+const rota = 'https://victormatia.github.io/wallet-redux#/';
 
 export default class App extends Component {
   render() {
