@@ -1,0 +1,33 @@
+table {
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 8px;
+  color: rgb(49, 49, 49);
+  margin: 300px auto;
+  width: 90%;
+}
+
+th {
+  border: none;
+  padding: 10px 20px;
+}
+
+td {
+  border: none;
+  text-align: center;
+}
+
+.edit-button , .delete-button {
+  color: rgb(242, 242, 242);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.edit-button {
+  background-color: rgb(227, 188, 61);
+}
+
+.delete-button {
+  background-color: rgb(222, 37, 37);
+}
+

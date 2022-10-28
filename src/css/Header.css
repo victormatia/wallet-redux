@@ -1,0 +1,25 @@
+header {
+  align-items: center;
+  border-bottom: 1px solid rgb(65, 65, 65);
+  color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.user-infos , .amount {
+  display: flex;
+}
+
+
+.user-infos p {
+  font-weight: 500;
+  margin: 10px;
+}
+
+.amount {
+  color: rgb(49, 215, 155);
+}

@@ -1,0 +1,113 @@
+.login-screen {
+  align-items: center;
+  background-image: url('../images/hero-large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.blur {
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.068);
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+
+.left-side , .rigth-side {
+  align-items: center;
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  z-index: 1;
+}
+
+.left-side h1 {
+  left: -60px;
+  position: relative;
+}
+
+.left-side h4 {
+  color: white;
+  left: 55px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.left-side h5 {
+  color: white;
+  left: -112px;
+  position: relative;
+}
+
+.benefits-list li {
+  color: rgb(242, 242, 242);
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.benefits-list li .more {
+  color: rgb(49, 215, 155);
+  font: 20px;
+  font-weight: 600;
+}
+
+.benefits-list li .less {
+  color: rgb(222, 37, 37);
+  font: 20px;
+  font-weight: 600;
+}
+
+.card {
+  background-color: rgb(16, 15, 19);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  padding: 20px;
+  width: 400px;
+}
+
+.login-title {
+  color: rgb(242, 242, 242);
+  font-size: 50px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input , .login-form button {
+  background-color: rgb(242, 242, 242);
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 12px;
+}
+
+.login-form input:focus {
+  outline: 3px solid rgb(90, 13, 191);
+}
+
+.login-form button {
+  background-color: rgb(98, 0, 179);
+  color: rgb(242, 242, 242);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-form button:disabled {
+  opacity: 0.7;
+}

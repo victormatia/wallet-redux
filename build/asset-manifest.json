@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wallet/static/css/main.a3e4e078.css",
+    "main.js": "/wallet/static/js/main.e95b505a.js",
+    "static/media/hero-large.jpg": "/wallet/static/media/hero-large.88f513f172ad94a156ab.jpg",
+    "static/media/hero-medium.jpg": "/wallet/static/media/hero-medium.512a61b74288320f15c3.jpg",
+    "index.html": "/wallet/index.html",
+    "main.a3e4e078.css.map": "/wallet/static/css/main.a3e4e078.css.map",
+    "main.e95b505a.js.map": "/wallet/static/js/main.e95b505a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3e4e078.css",
+    "static/js/main.e95b505a.js"
+  ]
+}
