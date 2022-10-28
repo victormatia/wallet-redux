@@ -5,13 +5,11 @@
   "engines": {
     "node": "16"
   },
-  "homepage": "https://victormatia.github.io/wallet-redux",
   "dependencies": {
     "@redux-devtools/extension": "3.2.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
-    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "4.4.0",
@@ -23,8 +21,6 @@
     "stylelint-order": "5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages -r git@github.com:victormatia/wallet-redux.git",
     "cy": "env CY_CLI=true cypress run",
     "cy:open": "cypress open --e2e --browser chrome",
     "start": "env ESLINT_NO_DEV_ERRORS=true react-scripts start",
